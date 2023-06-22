@@ -1,5 +1,9 @@
 let bmiNumber;
 
-bmiNumber = ([68]/[1.7*1.7]);
+let userWeight = 68;
+
+let userHeight = 1.7;
+
+bmiNumber = ([userWeight]/[userHeight*userHeight]);
 
 console.log(bmiNumber);
